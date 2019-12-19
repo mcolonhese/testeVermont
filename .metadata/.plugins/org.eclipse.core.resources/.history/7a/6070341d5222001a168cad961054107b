@@ -1,0 +1,121 @@
+import cucumber.api.PendingException;
+import cucumber.api.java.en.And;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+
+public class CadastrarVeiculo {
+
+    @Given("^a aplicação foi acessada com sucesso$")
+    public void a_aplicacao_foi_acessada_com_sucesso() throws Throwable {
+        throw new PendingException();
+    }
+
+    @And("^selecionada a funcionalidade Cadastro de Veículo$")
+    public void selecionada_a_funcionalidade_Cadastro_de_Veículo() throws Throwable {
+        throw new PendingException();
+    }
+
+    @When("^inserir uma placa válida$")
+    public void inserir_uma_placa_válida() throws Throwable {
+        throw new PendingException();
+    }
+
+    @And("^selecionar um tipo de veículo$")
+    public void selecionar_um_tipo_de_veículo() throws Throwable {
+        throw new PendingException();
+    }
+
+    @And("^inserir um fabricante válido$")
+    public void inserir_um_fabricante_válido() throws Throwable {
+        throw new PendingException();
+    }
+
+    @And("^inserir um modelo válido$")
+    public void inserir_um_modelo_válido() throws Throwable {
+        throw new PendingException();
+    }
+
+    @And("^inserir um ano fabricação válido$")
+    public void inserir_um_ano_fabricação_válido() throws Throwable {
+        throw new PendingException();
+    }
+
+    @And("^inserir um ano modelo válido$")
+    public void inserir_um_ano_modelo_válido() throws Throwable {
+        throw new PendingException();
+    }
+
+    @And("^inserir uma placa inválida$")
+    public void inserir_uma_placa_inválida() throws Throwable {
+        throw new PendingException();
+    }
+
+
+    @And("^clicar em Salvar$")
+    public void clicar_em_Salvar() throws Throwable {
+        throw new PendingException();
+    }
+
+    @Then("^veículo deve ser cadastrado com sucesso$")
+    public void veículo_deve_ser_cadastrado_com_sucesso() throws Throwable {
+        throw new PendingException();
+    }
+
+    @Then("^usuário deve ser notificado para obrigatoriedade do campo Placa$")
+    public void usuário_deve_ser_notificado_para_obrigatoriedade_do_campo_Placa() throws Throwable {
+        throw new PendingException();
+    }
+
+    @Then("^usuário deve ser notificado para obrigatoriedade do campo Tipo de veículo$")
+    public void usuário_deve_ser_notificado_para_obrigatoriedade_do_campo_Tipo_de_veículo() throws Throwable {
+        throw new PendingException();
+    }
+
+    @When("^inserir uma placa já cadastrada$")
+    public void inserir_uma_placa_já_cadastrada () throws Throwable {
+        throw new PendingException();
+    }
+
+
+    @When("^inserir um fabricante inválido$")
+    public void inserir_um_fabricante_inválido () throws Throwable {
+        throw new PendingException();
+    }
+
+
+    @When("^inserir um ano fabricação inválido$")
+    public void inserir_um_ano_fabricação_inválido () throws Throwable {
+        throw new PendingException();
+    }
+
+
+    @Then("^usuário deve ser notificado para o preenchimento correto do campo Placa$")
+    public void usuário_deve_ser_notificado_para_o_preenchimento_correto_do_campo_Placa() throws Throwable {
+        throw new PendingException();
+    }
+
+    @Then("^usuário deve ser notificado para a existência de cadastro com a placa informada$")
+    public void usuário_deve_ser_notificado_para_a_existência_de_cadastro_com_a_placa_informada() throws Throwable {
+        throw new PendingException();
+    }
+
+    @Then("^usuário deve ser notificado para obrigatoriedade do campo Fabricante$")
+    public void usuário_deve_ser_notificado_para_obrigatoriedade_do_campo_Fabricante() throws Throwable {
+        throw new PendingException();
+    }
+
+    @Then("^usuário deve ser notificado para o preenchimento correto do campo Fabricante$")
+    public void usuário_deve_ser_notificado_para_o_preenchimento_correto_do_campo_Fabricante() throws Throwable {
+        throw new PendingException();
+    }
+
+    @Then("^usuário deve ser notificado para o preenchimento correto do campo Ano de Fabricação$")
+    public void usuário_deve_ser_notificado_para_o_preenchimento_correto_do_campo_Ano_de_Fabricação() throws Throwable {
+        throw new PendingException();
+    }
+
+
+}
+

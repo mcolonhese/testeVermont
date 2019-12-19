@@ -1,0 +1,1215 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": ":",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 67089100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "aplicação foi acessada com sucesso",
+            "match": {
+              "location": "CadastrarVeiculoSteps.aplicaçãoFoiAcessadaComSucesso()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 31100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "selecionada a funcionalidade Cadastro de Veículo",
+            "match": {
+              "location": "CadastrarVeiculoSteps.selecionadaAFuncionalidadeCadastroDeVeículo()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "Inserir um veículo com sucesso",
+        "description": "",
+        "id": "cadastro-de-veículo;inserir-um-veículo-com-sucesso",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16201,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "inserir uma placa válida",
+            "match": {
+              "location": "CadastrarVeiculoSteps.inserirUmaPlacaVálida()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13699,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "selecionar um tipo de veículo",
+            "match": {
+              "location": "CadastrarVeiculoSteps.selecionarUmTipoDeVeículo()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "inserir um fabricante válido",
+            "match": {
+              "location": "CadastrarVeiculoSteps.inserirUmFabricanteVálido()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "inserir um modelo válido",
+            "match": {
+              "location": "CadastrarVeiculoSteps.inserirUmModeloVálido()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "inserir um ano fabricação válido",
+            "match": {
+              "location": "CadastrarVeiculoSteps.inserirUmAnoFabricaçãoVálido()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12401,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "inserir um ano modelo válido",
+            "match": {
+              "location": "CadastrarVeiculoSteps.inserirUmAnoModeloVálido()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 31600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "clicar em Salvar",
+            "match": {
+              "location": "CadastrarVeiculoSteps.clicarEmSalvar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12601,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "veículo deve ser cadastrado com sucesso",
+            "match": {
+              "location": "CadastrarVeiculoSteps.veículoDeveSerCadastradoComSucesso()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": ":",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 35300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "aplicação foi acessada com sucesso",
+            "match": {
+              "location": "CadastrarVeiculoSteps.aplicaçãoFoiAcessadaComSucesso()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 17601,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "selecionada a funcionalidade Cadastro de Veículo",
+            "match": {
+              "location": "CadastrarVeiculoSteps.selecionadaAFuncionalidadeCadastroDeVeículo()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Inserir um veículo sem Placa",
+        "description": "",
+        "id": "cadastro-de-veículo;inserir-um-veículo-sem-placa",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "selecionar um tipo de veículo",
+            "match": {
+              "location": "CadastrarVeiculoSteps.selecionarUmTipoDeVeículo()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "inserir um fabricante válido",
+            "match": {
+              "location": "CadastrarVeiculoSteps.inserirUmFabricanteVálido()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "inserir um modelo válido",
+            "match": {
+              "location": "CadastrarVeiculoSteps.inserirUmModeloVálido()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 29000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "inserir um ano fabricação válido",
+            "match": {
+              "location": "CadastrarVeiculoSteps.inserirUmAnoFabricaçãoVálido()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18800,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "inserir um ano modelo válido",
+            "match": {
+              "location": "CadastrarVeiculoSteps.inserirUmAnoModeloVálido()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15800,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "clicar em Salvar",
+            "match": {
+              "location": "CadastrarVeiculoSteps.clicarEmSalvar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 25101,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "usuário deve ser notificado para obrigatoriedade do campo Placa",
+            "match": {
+              "location": "CadastrarVeiculoSteps.usuárioDeveSerNotificadoParaObrigatoriedadeDoCampoPlaca()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": ":",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 37500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "aplicação foi acessada com sucesso",
+            "match": {
+              "location": "CadastrarVeiculoSteps.aplicaçãoFoiAcessadaComSucesso()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 17100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "selecionada a funcionalidade Cadastro de Veículo",
+            "match": {
+              "location": "CadastrarVeiculoSteps.selecionadaAFuncionalidadeCadastroDeVeículo()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 30,
+        "name": "Inserir um veículo sem Tipo veículo",
+        "description": "",
+        "id": "cadastro-de-veículo;inserir-um-veículo-sem-tipo-veículo",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15400,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "inserir uma placa válida",
+            "match": {
+              "location": "CadastrarVeiculoSteps.inserirUmaPlacaVálida()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11701,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "inserir um fabricante válido",
+            "match": {
+              "location": "CadastrarVeiculoSteps.inserirUmFabricanteVálido()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10999,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "inserir um modelo válido",
+            "match": {
+              "location": "CadastrarVeiculoSteps.inserirUmModeloVálido()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12299,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "inserir um ano fabricação válido",
+            "match": {
+              "location": "CadastrarVeiculoSteps.inserirUmAnoFabricaçãoVálido()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "inserir um ano modelo válido",
+            "match": {
+              "location": "CadastrarVeiculoSteps.inserirUmAnoModeloVálido()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10101,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "clicar em Salvar",
+            "match": {
+              "location": "CadastrarVeiculoSteps.clicarEmSalvar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21100,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "usuário deve ser notificado para obrigatoriedade do campo Tipo de veículo",
+            "match": {
+              "location": "CadastrarVeiculoSteps.usuárioDeveSerNotificadoParaObrigatoriedadeDoCampoTipoDeVeículo()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": ":",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 41100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "aplicação foi acessada com sucesso",
+            "match": {
+              "location": "CadastrarVeiculoSteps.aplicaçãoFoiAcessadaComSucesso()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "selecionada a funcionalidade Cadastro de Veículo",
+            "match": {
+              "location": "CadastrarVeiculoSteps.selecionadaAFuncionalidadeCadastroDeVeículo()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 40,
+        "name": "Inserir um veículo com Placa inválida",
+        "description": "",
+        "id": "cadastro-de-veículo;inserir-um-veículo-com-placa-inválida",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 29601,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "inserir uma placa inválida",
+            "match": {
+              "location": "CadastrarVeiculoSteps.inserirUmaPlacaInválida()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "selecionar um tipo de veículo",
+            "match": {
+              "location": "CadastrarVeiculoSteps.selecionarUmTipoDeVeículo()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14300,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "inserir um fabricante válido",
+            "match": {
+              "location": "CadastrarVeiculoSteps.inserirUmFabricanteVálido()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13300,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "inserir um modelo válido",
+            "match": {
+              "location": "CadastrarVeiculoSteps.inserirUmModeloVálido()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8900,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "inserir um ano fabricação válido",
+            "match": {
+              "location": "CadastrarVeiculoSteps.inserirUmAnoFabricaçãoVálido()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8200,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "inserir um ano modelo válido",
+            "match": {
+              "location": "CadastrarVeiculoSteps.inserirUmAnoModeloVálido()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8200,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "clicar em Salvar",
+            "match": {
+              "location": "CadastrarVeiculoSteps.clicarEmSalvar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9899,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "usuário deve ser notificado para o preenchimento correto do campo Placa",
+            "match": {
+              "location": "CadastrarVeiculoSteps.usuárioDeveSerNotificadoParaOPreenchimentoCorretoDoCampoPlaca()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": ":",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 24300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "aplicação foi acessada com sucesso",
+            "match": {
+              "location": "CadastrarVeiculoSteps.aplicaçãoFoiAcessadaComSucesso()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9399,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "selecionada a funcionalidade Cadastro de Veículo",
+            "match": {
+              "location": "CadastrarVeiculoSteps.selecionadaAFuncionalidadeCadastroDeVeículo()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 50,
+        "name": "Inserir um veículo com Placa duplicada",
+        "description": "",
+        "id": "cadastro-de-veículo;inserir-um-veículo-com-placa-duplicada",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14100,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "inserir uma placa já cadastrada",
+            "match": {
+              "location": "CadastrarVeiculoSteps.inserirUmaPlacaJáCadastrada()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8699,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "selecionar um tipo de veículo",
+            "match": {
+              "location": "CadastrarVeiculoSteps.selecionarUmTipoDeVeículo()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8300,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "inserir um fabricante válido",
+            "match": {
+              "location": "CadastrarVeiculoSteps.inserirUmFabricanteVálido()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24600,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "inserir um modelo válido",
+            "match": {
+              "location": "CadastrarVeiculoSteps.inserirUmModeloVálido()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17301,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "inserir um ano fabricação válido",
+            "match": {
+              "location": "CadastrarVeiculoSteps.inserirUmAnoFabricaçãoVálido()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 29601,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "inserir um ano modelo válido",
+            "match": {
+              "location": "CadastrarVeiculoSteps.inserirUmAnoModeloVálido()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14101,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "clicar em Salvar",
+            "match": {
+              "location": "CadastrarVeiculoSteps.clicarEmSalvar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18100,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "usuário deve ser notificado para a existência de cadastro com a placa informada",
+            "match": {
+              "location": "CadastrarVeiculoSteps.usuárioDeveSerNotificadoParaAExistênciaDeCadastroComAPlacaInformada()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": ":",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 61200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "aplicação foi acessada com sucesso",
+            "match": {
+              "location": "CadastrarVeiculoSteps.aplicaçãoFoiAcessadaComSucesso()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 19300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "selecionada a funcionalidade Cadastro de Veículo",
+            "match": {
+              "location": "CadastrarVeiculoSteps.selecionadaAFuncionalidadeCadastroDeVeículo()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 60,
+        "name": "Inserir um veículo sem Fabricante",
+        "description": "",
+        "id": "cadastro-de-veículo;inserir-um-veículo-sem-fabricante",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 29200,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "inserir uma placa válida",
+            "match": {
+              "location": "CadastrarVeiculoSteps.inserirUmaPlacaVálida()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14601,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "selecionar um tipo de veículo",
+            "match": {
+              "location": "CadastrarVeiculoSteps.selecionarUmTipoDeVeículo()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13400,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "inserir um modelo válido",
+            "match": {
+              "location": "CadastrarVeiculoSteps.inserirUmModeloVálido()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12399,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "inserir um ano fabricação válido",
+            "match": {
+              "location": "CadastrarVeiculoSteps.inserirUmAnoFabricaçãoVálido()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13900,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "inserir um ano modelo válido",
+            "match": {
+              "location": "CadastrarVeiculoSteps.inserirUmAnoModeloVálido()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9900,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "clicar em Salvar",
+            "match": {
+              "location": "CadastrarVeiculoSteps.clicarEmSalvar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18700,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "usuário deve ser notificado para obrigatoriedade do campo Fabricante",
+            "match": {
+              "location": "CadastrarVeiculoSteps.usuárioDeveSerNotificadoParaObrigatoriedadeDoCampoFabricante()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": ":",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 31200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "aplicação foi acessada com sucesso",
+            "match": {
+              "location": "CadastrarVeiculoSteps.aplicaçãoFoiAcessadaComSucesso()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11201,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "selecionada a funcionalidade Cadastro de Veículo",
+            "match": {
+              "location": "CadastrarVeiculoSteps.selecionadaAFuncionalidadeCadastroDeVeículo()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 70,
+        "name": "Inserir um veículo com Fabricante inválido",
+        "description": "",
+        "id": "cadastro-de-veículo;inserir-um-veículo-com-fabricante-inválido",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 32500,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "inserir uma placa válida",
+            "match": {
+              "location": "CadastrarVeiculoSteps.inserirUmaPlacaVálida()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13500,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "selecionar um tipo de veículo",
+            "match": {
+              "location": "CadastrarVeiculoSteps.selecionarUmTipoDeVeículo()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17600,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "inserir um fabricante inválido",
+            "match": {
+              "location": "CadastrarVeiculoSteps.inserirUmFabricanteInválido()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12700,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "inserir um modelo válido",
+            "match": {
+              "location": "CadastrarVeiculoSteps.inserirUmModeloVálido()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15900,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "inserir um ano fabricação válido",
+            "match": {
+              "location": "CadastrarVeiculoSteps.inserirUmAnoFabricaçãoVálido()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13400,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "inserir um ano modelo válido",
+            "match": {
+              "location": "CadastrarVeiculoSteps.inserirUmAnoModeloVálido()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16999,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "clicar em Salvar",
+            "match": {
+              "location": "CadastrarVeiculoSteps.clicarEmSalvar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 35500,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "usuário deve ser notificado para o preenchimento correto do campo Fabricante",
+            "match": {
+              "location": "CadastrarVeiculoSteps.usuárioDeveSerNotificadoParaOPreenchimentoCorretoDoCampoFabricante()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": ":",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 31700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "aplicação foi acessada com sucesso",
+            "match": {
+              "location": "CadastrarVeiculoSteps.aplicaçãoFoiAcessadaComSucesso()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10801,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "selecionada a funcionalidade Cadastro de Veículo",
+            "match": {
+              "location": "CadastrarVeiculoSteps.selecionadaAFuncionalidadeCadastroDeVeículo()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 80,
+        "name": "Inserir um veículo sem Ano de Fabricação",
+        "description": "",
+        "id": "cadastro-de-veículo;inserir-um-veículo-sem-ano-de-fabricação",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12100,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "inserir uma placa válida",
+            "match": {
+              "location": "CadastrarVeiculoSteps.inserirUmaPlacaVálida()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10001,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "selecionar um tipo de veículo",
+            "match": {
+              "location": "CadastrarVeiculoSteps.selecionarUmTipoDeVeículo()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9300,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "inserir um fabricante válido",
+            "match": {
+              "location": "CadastrarVeiculoSteps.inserirUmFabricanteVálido()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8800,
+              "status": "passed"
+            },
+            "line": 84,
+            "name": "inserir um modelo válido",
+            "match": {
+              "location": "CadastrarVeiculoSteps.inserirUmModeloVálido()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9699,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "inserir um ano modelo válido",
+            "match": {
+              "location": "CadastrarVeiculoSteps.inserirUmAnoModeloVálido()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12599,
+              "status": "passed"
+            },
+            "line": 86,
+            "name": "clicar em Salvar",
+            "match": {
+              "location": "CadastrarVeiculoSteps.clicarEmSalvar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11001,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "veículo deve ser cadastrado com sucesso",
+            "match": {
+              "location": "CadastrarVeiculoSteps.veículoDeveSerCadastradoComSucesso()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": ":",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 47801,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "aplicação foi acessada com sucesso",
+            "match": {
+              "location": "CadastrarVeiculoSteps.aplicaçãoFoiAcessadaComSucesso()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "selecionada a funcionalidade Cadastro de Veículo",
+            "match": {
+              "location": "CadastrarVeiculoSteps.selecionadaAFuncionalidadeCadastroDeVeículo()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 90,
+        "name": "Inserir um veículo com Ano de Fabricação Inválido",
+        "description": "",
+        "id": "cadastro-de-veículo;inserir-um-veículo-com-ano-de-fabricação-inválido",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11100,
+              "status": "passed"
+            },
+            "line": 91,
+            "name": "inserir uma placa válida",
+            "match": {
+              "location": "CadastrarVeiculoSteps.inserirUmaPlacaVálida()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8299,
+              "status": "passed"
+            },
+            "line": 92,
+            "name": "selecionar um tipo de veículo",
+            "match": {
+              "location": "CadastrarVeiculoSteps.selecionarUmTipoDeVeículo()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8000,
+              "status": "passed"
+            },
+            "line": 93,
+            "name": "inserir um fabricante válido",
+            "match": {
+              "location": "CadastrarVeiculoSteps.inserirUmFabricanteVálido()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7799,
+              "status": "passed"
+            },
+            "line": 94,
+            "name": "inserir um modelo válido",
+            "match": {
+              "location": "CadastrarVeiculoSteps.inserirUmModeloVálido()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12100,
+              "status": "passed"
+            },
+            "line": 95,
+            "name": "inserir um ano fabricação inválido",
+            "match": {
+              "location": "CadastrarVeiculoSteps.inserirUmAnoFabricaçãoInválido()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7800,
+              "status": "passed"
+            },
+            "line": 96,
+            "name": "inserir um ano modelo válido",
+            "match": {
+              "location": "CadastrarVeiculoSteps.inserirUmAnoModeloVálido()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8800,
+              "status": "passed"
+            },
+            "line": 97,
+            "name": "clicar em Salvar",
+            "match": {
+              "location": "CadastrarVeiculoSteps.clicarEmSalvar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13700,
+              "status": "passed"
+            },
+            "line": 98,
+            "name": "usuário deve ser notificado para o preenchimento correto do campo Ano de Fabricação",
+            "match": {
+              "location": "CadastrarVeiculoSteps.usuárioDeveSerNotificadoParaOPreenchimentoCorretoDoCampoAnoDeFabricação()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Cadastro de Veículo",
+    "description": "Como um usuário\r\nEu quero cadastrar um veículo\r\nPara registrá-lo no meu banco de dados",
+    "id": "cadastro-de-veículo",
+    "keyword": "Feature",
+    "uri": "src/test/java/resources/cadastrarveiculo.feature"
+  }
+]
